@@ -1,0 +1,14 @@
+{
+    "name": "recapi/client",
+    "description": "PHP client for the recapi recommendation API: per-user history, event batching, retries, popular fallback.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://recapi.io",
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": ["recapi.php"]
+    }
+}
