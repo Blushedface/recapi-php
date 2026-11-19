@@ -1,0 +1,20 @@
+{
+    "name": "recapi/client",
+    "description": "PHP client for the recapi recommendation API: per-user history, event batching, retries, popular fallback.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["recommendations", "recommender", "personalization", "ecommerce", "api-client"],
+    "homepage": "https://recapi.io",
+    "support": {
+        "docs": "https://recapi.io/docs",
+        "issues": "https://recapi.io/contact",
+        "source": "https://github.com/Blushedface/recapi-php"
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": ["recapi.php"]
+    }
+}
